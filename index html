@@ -1,0 +1,89 @@
+
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Сайт-визитка профессионала в области дизайна и разработки веб-сайтов. Узнайте о моем опыте, услугах и способах связи." />
+  <meta name="keywords" content="визитка, веб-дизайн, разработка сайтов, контакты, услуги" />
+  <meta name="author" content="Иван Иванов" />
+  <title>Иван Иванов — Веб-дизайнер и разработчик</title>
+</head>
+<body>
+  <header itemscope itemtype="http://schema.org/Person">
+    <h1 itemprop="name">Иван Иванов</h1>
+    <p itemprop="jobTitle">Веб-дизайнер и разработчик</p>
+    <p>Добро пожаловать на мой персональный сайт-визитку! Здесь вы можете узнать обо мне, моих услугах и связаться со мной для обсуждения интересующих проектов.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">Обо мне</a></li>
+      <li><a href="#services">Услуги</a></li>
+      <li><a href="#portfolio">Портфолио</a></li>
+      <li><a href="#contact">Контакты</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about" itemscope itemtype="http://schema.org/AboutPage">
+      <h2>Обо мне</h2>
+      <article itemscope itemtype="http://schema.org/Person">
+        <p itemprop="description">
+          Я — специалист с более чем 8-летним опытом в веб-дизайне и фронтенд-разработке. Моя задача — создавать удобные, красивые и функциональные сайты, которые помогают бизнесам развиваться и лучше взаимодействовать с клиентами.
+        </p>
+        <p>
+          Моё образование включает бакалавриат по направлению "Компьютерные науки", а также множество курсов по UX/UI и современным технологиям веб-разработки. Я ценю чистый и адаптивный дизайн с акцентом на опыт пользователя. Постоянно обучаюсь и слежу за новыми трендами.
+        </p>
+        <p>
+          Помимо работы над коммерческими проектами, я участвую в open-source проектах и провожу мастер-классы по веб-разработке для начинающих.
+        </p>
+      </article>
+    </section>
+
+    <section id="services" itemscope itemtype="http://schema.org/Service">
+      <h2>Услуги</h2>
+      <p>Я предоставляю полный спектр услуг в области веб-дизайна и фронтенд-разработки. Мои основные направления:</p>
+      <ul>
+        <li itemprop="serviceType">Разработка адаптивных сайтов под ключ</li>
+        <li itemprop="serviceType">Редизайн и улучшение существующих сайтов</li>
+        <li itemprop="serviceType">Проектирование UX/UI интерфейсов</li>
+        <li itemprop="serviceType">Оптимизация производительности и SEO</li>
+        <li itemprop="serviceType">Консультации и техническая поддержка</li>
+      </ul>
+      <p>Я работаю с современными технологиями: HTML5, CSS3, JavaScript, React, Vue.js, а также системами управления контентом.</p>
+    </section>
+
+    <section id="portfolio" itemscope itemtype="http://schema.org/CreativeWork">
+      <h2>Портфолио</h2>
+      <p>Ниже представлены некоторые из моих проектов:</p>
+      <article>
+        <h3 itemprop="name">Сайт для ресторана "Вкус Времени"</h3>
+        <p itemprop="description">Разработал дизайн и реализовал сайт с удобным меню, интеграцией бронирования столиков и мобильной версией.</p>
+      </article>
+      <article>
+        <h3 itemprop="name">Интернет-магазин "TechStore"</h3>
+        <p itemprop="description">Создал адаптивный интернет-магазин с простым интерфейсом и безопасной системой оплаты.</p>
+      </article>
+      <article>
+        <h3 itemprop="name">Блог о путешествиях "Дороги Мира"</h3>
+        <p itemprop="description">Разработал современный дизайн блога с удобной навигацией и системой комментариев.</p>
+      </article>
+    </section>
+
+    <section id="contact" itemscope itemtype="http://schema.org/ContactPoint">
+      <h2>Контакты</h2>
+      <p>Свяжитесь со мной для обсуждения проектов или вопросов:</p>
+      <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <p>Адрес: <span itemprop="streetAddress">ул. Пушкина, д.10</span>, <span itemprop="addressLocality">Москва</span>, <span itemprop="addressRegion">Россия</span></p>
+      </address>
+      <p>Телефон: <a href="tel:+79991234567" itemprop="telephone">+7 (999) 123-45-67</a></p>
+      <p>Email: <a href="mailto:ivan.ivanov@example.com" itemprop="email">ivan.ivanov@example.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/ivanivanov" itemprop="url">linkedin.com/in/ivanivanov</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Иван Иванов. Все права защищены.</p>
+  </footer>
+</body>
+</html>
